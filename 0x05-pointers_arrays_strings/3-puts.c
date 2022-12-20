@@ -1,16 +1,22 @@
 #include "stdio.h"
-#include <string.h>
 
 /**
- * _puts - check the code for Main.
- * @str: variable.
+ * _puts - prints a string, followed by a new line.
+ * @str: input string.
+ * Return: no return.
  */
-void _puts(char *)
+void _puts(char *str)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+	int count = 0;
+
+	while (count >= 0)
+	{
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[count]);
+		count++;
+	}
 }
