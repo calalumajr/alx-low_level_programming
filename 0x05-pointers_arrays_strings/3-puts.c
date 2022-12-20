@@ -1,5 +1,4 @@
 #include "stdio.h"
-#include <string.h>
 
 /**
  * _puts - check the code for Main.
