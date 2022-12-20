@@ -1,15 +1,15 @@
 #include "stdio.h"
 
 /**
- * _puts - check the code for Main.
- * @str: variable.
+ * main - check the code
+ *
+ *Return: Always 0.
  */
-void _puts(char *str)
+int main(void)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+	char *str;
+
+	str = "this is a string";
+	_puts(str);
+	return (0);
 }
