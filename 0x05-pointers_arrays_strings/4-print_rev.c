@@ -4,7 +4,7 @@
  * print_rev - check the code for Holberton School students.
  * @s: variable.
  */
-void print_rev(char *s)
+void print_rev(putchar *s)
 {
 int i;
 int a;
