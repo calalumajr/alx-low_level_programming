@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
 * swap_int - check the code for Main.
 * @a: variable.
